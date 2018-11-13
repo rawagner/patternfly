@@ -46,27 +46,27 @@
 }
 
 .ie9 .spinner {
-  background: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-path}#{$img-spinner}"), "#{$img-path}#{$img-spinner}")) no-repeat;
+  background: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-pf-path}#{$img-pf-spinner}"), "#{$img-pf-path}#{$img-pf-spinner}")) no-repeat;
   border: 0;
   &.spinner-inverse {
-    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-path}#{$img-spinner-inverse}"), "#{$img-path}#{$img-spinner-inverse}"));
+    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-pf-path}#{$img-pf-spinner-inverse}"), "#{$img-pf-path}#{$img-pf-spinner-inverse}"));
   }
   &.spinner-inverse-lg {
-    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-path}#{$img-spinner-inverse-lg}"), "#{$img-path}#{$img-spinner-inverse-lg}"));
+    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-pf-path}#{$img-pf-spinner-inverse-lg}"), "#{$img-pf-path}#{$img-pf-spinner-inverse-lg}"));
   }
   &.spinner-inverse-sm {
-    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-path}#{$img-spinner-inverse-sm}"), "#{$img-path}#{$img-spinner-inverse-sm}"));
+    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-pf-path}#{$img-pf-spinner-inverse-sm}"), "#{$img-pf-path}#{$img-pf-spinner-inverse-sm}"));
   }
   &.spinner-inverse-xs {
-    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-path}#{$img-spinner-inverse-xs}"), "#{$img-path}#{$img-spinner-inverse-xs}"));
+    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-pf-path}#{$img-pf-spinner-inverse-xs}"), "#{$img-pf-path}#{$img-pf-spinner-inverse-xs}"));
   }
   &.spinner-lg {
-    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-path}#{$img-spinner-lg}"), "#{$img-path}#{$img-spinner-lg}"));
+    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-pf-path}#{$img-pf-spinner-lg}"), "#{$img-pf-path}#{$img-pf-spinner-lg}"));
   }
   &.spinner-sm {
-    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-path}#{$img-spinner-sm}"), "#{$img-path}#{$img-spinner-sm}"));
+    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-pf-path}#{$img-pf-spinner-sm}"), "#{$img-pf-path}#{$img-pf-spinner-sm}"));
   }
   &.spinner-xs {
-    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-path}#{$img-spinner-xs}"), "#{$img-path}#{$img-spinner-xs}"));
+    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-pf-path}#{$img-pf-spinner-xs}"), "#{$img-pf-path}#{$img-pf-spinner-xs}"));
   }
 }

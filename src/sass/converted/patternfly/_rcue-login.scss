@@ -5,7 +5,7 @@
 .login-pf {
   background-color:  $login-bg-color;
   @media (min-width: $screen-sm-min) {
-    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-path}#{$img-bg-login-2}"), "#{$img-path}#{$img-bg-login-2}"));
+    background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-pf-path}#{$img-pf-bg-login-2}"), "#{$img-pf-path}#{$img-pf-bg-login-2}"));
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: 30%;
@@ -24,7 +24,7 @@
   body {
     background: transparent;
     @media (min-width: $screen-sm-min) {
-      background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-path}#{$img-bg-login}"), "#{$img-path}#{$img-bg-login}"));
+      background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$img-pf-path}#{$img-pf-bg-login}"), "#{$img-pf-path}#{$img-pf-bg-login}"));
       background-repeat: no-repeat;
       background-size: 30%;
       height: 100%;
